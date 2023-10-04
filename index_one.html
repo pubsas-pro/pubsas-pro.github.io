@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widch=device-widch, initial-scale=1.0">
+    <title>Proyecto de grado</title>
+    <link rel="shortcut icon" href="./imagines/LOGO CABEZA.PNG"type=image/x-icon>
+    <link rel="stylesheet" href="./CSS/estilos_one.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- para el menu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <div class="container">
+    <ul>
+        <li style="--i: #a955ff; --j:#ea51ff">
+            <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="text">
+                Inicio
+            </span>
+        </li>
+        <li style="--i: #70e094; --j:#99e599">
+            <span class="icon">
+                <ion-icon name="call-outline"></ion-icon>
+            </span>
+            <span class="text">
+                Contactarme
+            </span>
+        </li>
+        <li style="--i: #ff9966; --j:#ff5e62">
+            <span class="icon">
+                <ion-icon name="chatbox-outline"></ion-icon>
+            </span>
+            <span class="text">
+                Tiendas
+            </span>
+        </li>
+        <li style="--i: #1755ba; --j:#00bfff">
+            <span class="icon">
+                <ion-icon name="person-outline"></ion-icon>
+            </span>
+            <span class="text">
+                Mundo PUB
+            </span>
+        </li>
+        <li style="--i: #ffa9c6; --j:#f434e2">
+            <span class="icon">
+                <ion-icon name="cog-outline"></ion-icon>
+            </span>
+            <span class="text">
+                Musica
+            </span>
+        </li>
+    </ul>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- MENU
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+          <header class="sidebar-header">
+            <button
+            type="button"
+            class="sidebar-burger"
+            onclick="toggleSidebar()"
+          ></button>
+            <img src="./imagines/IMG_ONE/blocklord-logo.png" class="sidebar-logo" />
+          </header>
+          <nav class="sidebar-menu">
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-home.svg" />
+              <span>Inicio</span>
+            </button>
+            <button type="button" class="has-border">
+              <img src="./imagines/IMG_ONE/icon-settings.svg" />
+              <span>Settings</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-blockchain.svg" />
+              <span>Blockchick</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-database.svg" />
+              <span>DataRiver</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-speaker.svg" />
+              <span>Musica</span>
+            </button>
+            <button type="button" class="has-border">
+              <img src="./imagines/IMG_ONE/icon-acoustic.svg" />
+              <span>SoundBlast</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-folders.svg" />
+              <span>Folders</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-levels.svg" />
+              <span>Levels</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-accounts.svg" />
+              <span>Accounts</span>
+            </button>
+            <button type="button">
+              <img src="./imagines/IMG_ONE/icon-lock.svg" />
+              <span>Uso</span>
+            </button>
+          </nav>
+        </div>
+      </nav> -->
+
+      <!-- SLAIDER -->
+
+    <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+
+          <li style="background-image: url('./imagines/fondo.jpg'); z-index:0; opacity: 1;">
+          </li>
+
+
+          <li style="background-image: url('./imagines/fondo\ 2.jpg'); ">
+          </li>
+
+
+          <li style="background-image: url('./imagines/home.jpg'); ">
+          </li>
+      
+       </ul>    
+    </section>
+
+      <!-- TARGETAS -->
+
+    <main class="cards">
+      <section class="card contact">
+          <div class="icon">
+              <img src="./imagines/assets/Chat.png" alt="Contact us.">
+          </div>
+          <h3>Contacte con nosotros</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <button>Ir</button>
+      </section>
+      <section class="card shop">
+          <div class="icon">
+              <img src="./imagines/assets/Bag.png" alt="Shop here.">
+          </div>
+          <h3>Tienda</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <button>Ir</button>
+      </section>
+      <section class="card about">
+          <div class="icon">
+              <img src="imagines/assets/Play.png" alt="About us.">
+          </div>
+          <h3>Musica</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <button>Ir</button>
+      </section>
+    </main>
+
+    <h1 class="prueva">hola mundo</h1>
+
+
+
+
+    musica 
+
+    <section class="container">
+      <!--main area starts-->
+      <div class="main_area">
+        <header class="header">Musify.in</header>
+        <!--Songs card starts-->
+        <div class="song_list">
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Bella ciao thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Bella Ciao-Money Heist</h1>
+              <button class="play" onclick="playaudio(1)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Despacito thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Despacito- Daady Yankee</h1>
+              <button class="play" onclick="playaudio(2)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Excuses thumbnail.jpg" />
+            </div>
+            <div class="Excuses-A.P. Dhillon">
+              <h1>Excuses song- A.P. Dhillon</h1>
+              <button class="play" onclick="playaudio(3)">Play</button>
+            </div>  
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Intentions.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Intentions- Justin Bieber</h1>
+              <button class="play" onclick="playaudio(4)">Play</button>
+            </div>
+          </div>
+          <br />
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/on my way thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>On my way-Alan Walker</h1>
+              <button class="play" onclick="playaudio(5)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Prada thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Prada-Jass Manak</h1>
+              <button class="play" onclick="playaudio(6)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Rhim jhim song thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Rhim Jhim-Jubin Nautiyal</h1>
+              <button class="play" onclick="playaudio(7)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/yarri thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Yaari-Nikk</h1>
+              <button class="play" onclick="playaudio(8)">Play</button>
+            </div>
+          </div>
+        </div>
+        <!--Songs cards ends-->
+      </div>
+      <!--Main cards ends-->
+
+      <!--Live song side content starts-->
+      <div class="side_content">
+        <div class="playing">Playing Now</div>
+        <div class="side_thumbnail">
+          <img
+            id="image_thumbnail"
+            src="./thumbnails/Despacito thumbnail.jpg"
+          />
+        </div>
+        <audio
+          id="audio_play"
+          class="audio_play"
+          src="./Audio/Despacito.mp3"
+          controls
+        ></audio>
+        <h1 id="audio_player_title">Despacito- Daady Yankee</h1>
+      </div>
+      <!--Livfe song side content ends-->
+    </section>
+
+    
+    
+    
+    
+    <!--SECTION MUSICA-->
+    <script src="./JS/musica.js"></script>
+
+     <script defer src="./JS/slider_one-pri.js"></script>
+     <script type="text/javascript">
+      const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
+    <script src="./JS/app_cardnueva.js"></script>
+
+</body>
+</html>
